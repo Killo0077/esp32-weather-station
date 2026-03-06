@@ -61,11 +61,22 @@ Project stage:
 ## Prototype
 
 Current breadboard prototype:
-
-![ESP32 Weather Station Prototype](images/esp32-weatherStation.jpeg)
+## Project Photos
 ![ESP32 Weather Station Prototype](images/IMG_1270.jpeg)
 ![ESP32 Weather Station Prototype](images/IMG_1272.jpeg)
 ![ESP32 Weather Station Prototype](images/IMG_1273.jpeg)
+
+### Breadboard Prototype
+![Breadboard Prototype](images/esp32-weatherStation.jpeg)
+
+### Airport Weather
+![Airport weather](images/IMG_1274.jpeg)
+
+### BBC NEWS
+![BBC news](images/IMG_1276.jpeg)
+
+### RSS News Screen
+![RSS News Screen](images/IMG_1277.jpeg)
 
 ---
 
