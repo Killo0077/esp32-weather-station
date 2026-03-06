@@ -60,14 +60,14 @@ Project stage:
 
 ## Prototype
 
+### Breadboard Prototype
+![Breadboard Prototype](images/esp32-weatherStation.jpeg)
+
 Current breadboard prototype:
 ## Project Photos
 ![ESP32 Weather Station Prototype](images/IMG_1270.jpeg)
 ![ESP32 Weather Station Prototype](images/IMG_1272.jpeg)
 ![ESP32 Weather Station Prototype](images/IMG_1273.jpeg)
-
-### Breadboard Prototype
-![Breadboard Prototype](images/esp32-weatherStation.jpeg)
 
 ### Airport Weather
 ![Airport weather](images/IMG_1274.jpeg)
