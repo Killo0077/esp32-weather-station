@@ -4,38 +4,40 @@
 
 This project is a DIY Weather Station built using an ESP32 microcontroller, a DHT22 temperature and humidity sensor, and a 2.8" TFT color display.
 
-The system shows local environmental data, live news from RSS feeds, and real-time clock and calendar information synchronized over WiFi.
+The system displays:
 
-Navigation is done using an analog joystick and a custom menu interface.
+• Local environmental data  
+• Live news from RSS feeds  
+• Real-time clock and calendar synchronized over WiFi  
 
-This project is currently under construction. The core system is functional and tested on a breadboard, and a permanent enclosure will be designed and built.
+Navigation is done using hardware buttons and a custom menu interface.
+
+The project is currently under development. The core system is functional and tested on a breadboard. A permanent enclosure will be designed and built.
 
 ---
 
 ## Features
 
-* Local temperature measurement (DHT22)
-* Local humidity measurement (DHT22)
-* Real-time clock and calendar via WiFi (NTP)
-* RSS news feeds:
-
-  * BBC News
-  * UK News
-  * Cork Airport Weather
-* Interactive menu system
-* Joystick navigation
-* TFT graphical display interface
+- Local temperature measurement (DHT22)
+- Local humidity measurement (DHT22)
+- Real-time clock via WiFi (NTP)
+- RSS news feeds:
+  - BBC News
+  - UK News
+- Cork Airport live weather data
+- Interactive menu system
+- Custom graphical TFT interface
 
 ---
 
 ## Hardware Used
 
-* ESP32 development board
-* DHT22 temperature and humidity sensor
-* DollaTek 2.8 inch TFT color display (240x320)
-* Analog joystick module
-* Breadboard
-* Jumper wires
+- ESP32 Dev Module
+- DHT22 Temperature & Humidity Sensor
+- 2.8" ILI9341 TFT Display (240x320)
+- Push buttons (menu navigation)
+- Breadboard
+- Jumper wires
 
 ---
 
@@ -43,74 +45,70 @@ This project is currently under construction. The core system is functional and 
 
 Project stage:
 
-* [x] ESP32 configured
-* [x] TFT display working
-* [x] DHT22 sensor working
-* [x] WiFi connection working
-* [x] RSS feeds working
-* [x] Clock and calendar synchronized via internet
-* [x] Menu navigation implemented
-* [ ] Ui improve
-* [ ] Final enclosure construction
-* [ ] Hardware soldering
-* [ ] Final assembly
+- [x] ESP32 configured
+- [x] TFT display working
+- [x] WiFi connection working
+- [x] RSS feeds working
+- [x] Clock synchronized via NTP
+- [x] Menu navigation implemented
+- [ ] UI improvements
+- [ ] Final enclosure
+- [ ] Hardware soldering
+- [ ] Final assembly
 
 ---
 
-## Project Photo (Prototype)
+## Prototype
 
 Current breadboard prototype:
 
 ![ESP32 Weather Station Prototype](images/esp32-weatherStation.jpeg)
+![ESP32 Weather Station Prototype](images/IMG_1270.jpeg)
+![ESP32 Weather Station Prototype](images/IMG_1272.jpeg)
+![ESP32 Weather Station Prototype](images/IMG_1273.jpeg)
 
+---
 
-# How It Works
+## How It Works
 
 The ESP32 connects to WiFi and retrieves:
 
-    * Current time from NTP servers
+• Current time from NTP servers  
+• RSS feeds from online news sources  
 
-    * RSS feeds from online news sources
+It also reads environmental data from the DHT22 sensor.
 
-It also reads local environmental data from the DHT22 sensor.
+All information is displayed on the TFT screen through a menu-driven interface.
 
-All information is displayed on the TFT screen through a menu system controlled by a joystick.
+---
 
-
-
-# Software
+## Software
 
 Developed using:
 
-Arduino IDE:
+- Arduino IDE
+- C++
+- ESP32 WiFi libraries
+- HTTPClient
+- Adafruit ILI9341 TFT library
+- DHT sensor library
 
-* C++
+---
 
-* ESP32 libraries
+## Future Improvements
 
-* WiFi and HTTPClient libraries
+- Custom 3D printed enclosure
+- Improved graphical interface
+- Add air quality sensor (BME680)
+- Add LED status indicators
+- Add buzzer for weather alerts
+- Optimize memory usage
 
-* TFT display libraries
+---
 
-* DHT sensor library
+## Author
 
+**Killo0077**
 
-# Future Improvements
-
-* Design and build custom enclosure
-
-* Improve graphical interface
-
-* Add additional sensors (pressure, air quality)
-
-* Add automatic screen rotation
-
-* Optimize power consumption
-
-
-# Author
-
-### Killo0077 ### 
-
-Software Development Student
-Embedded Systems and IoT Enthusiast
+Software Development Student  
+Embedded Systems & IoT Enthusiast
