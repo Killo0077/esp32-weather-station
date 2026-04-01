@@ -1,5 +1,8 @@
 # ESP32 Weather Station with TFT Display, RSS News and WiFi Clock 🌦️
 
+![ESP32 Weather Station Prototype](images/fase4/IMG_1416.JPEG)
+![ESP32 Weather Station Prototype](images/fase4/IMG_1417.JPEG)
+
 ## Overview
 
 This project is a DIY Weather Station built using an ESP32 microcontroller, a DHT22 temperature and humidity sensor, and a 2.8" TFT color display.
