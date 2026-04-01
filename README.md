@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project is a DIY Weather Station built using an ESP32 microcontroller, a DHT22 temperature and humidity sensor, and a 2.8" TFT color display.
+This project is a DIY Weather Station built using an ESP32 microcontroller, a BME280 temperature and humidity sensor, and a 2.8" TFT color display.
 
 The system displays:
 
@@ -15,7 +15,7 @@ The system displays:
 
 Navigation is done using hardware buttons and a custom menu interface.
 
-The project is currently under development. The core system is functional and tested on a breadboard. A permanent enclosure will be designed and built.
+The project is currently "finish" my skills of carpinter are not the best but hopefully I could make it someday in a 3D printer.
 
 ---
 
@@ -42,24 +42,7 @@ The project is currently under development. The core system is functional and te
 - Breadboard
 - Jumper wires
 
----
 
-## Current Status
-
-Project stage:
-
-- [x] ESP32 configured
-- [x] TFT display working
-- [x] WiFi connection working
-- [x] RSS feeds working
-- [x] Clock synchronized via NTP
-- [x] Menu navigation implemented
-- [ ] UI improvements
-- [ ] Final enclosure
-- [ ] Hardware soldering
-- [ ] Final assembly
-
----
 ## Project Photos
 
 ### Breadboard Prototype
@@ -111,7 +94,8 @@ Developed using:
 - ESP32 WiFi libraries
 - HTTPClient
 - Adafruit ILI9341 TFT library
-- DHT sensor library
+- BME280 sensor library
+- Led WS2812
 
 ---
 
