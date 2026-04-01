@@ -67,6 +67,15 @@ Project stage:
 ![ESP32 Weather Station Prototype](images/IMG_1272.jpeg)
 ![ESP32 Weather Station Prototype](images/IMG_1273.jpeg)
 
+
+### Fase 2 New UI
+![ESP Weather Station Prototype](images/fase2/IMG_82FE3004-2EF7-4C7D-8AF9-5AB19615ADDF.jpeg)
+![ESP Weather Station Prototype](images/fase2/IMG_B0374D2F-5DAC-44E0-9B76-4553AD162545.jpeg)
+
+
+### Fase 3 Led Strip && Animations
+![ESP Weather Station Prototype](images/fase3/IMG_1343.JPEG)
+
 ### Airport Weather Screen
 ![Airport weather](images/IMG_1274.jpeg)
 
@@ -103,16 +112,7 @@ Developed using:
 
 ---
 
-## Future Improvements
 
-- Custom 3D printed enclosure
-- Improved graphical interface
-- Add air quality sensor (BME680)
-- Add LED status indicators
-- Add buzzer for weather alerts
-- Optimize memory usage
-
----
 
 ## Author
 
