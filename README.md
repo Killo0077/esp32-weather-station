@@ -1,7 +1,9 @@
 # ESP32 Weather Station with TFT Display, RSS News and WiFi Clock 🌦️
 
-![ESP32 Weather Station Prototype](images/fase4/IMG_1416.JPEG)
-![ESP32 Weather Station Prototype](images/fase4/IMG_1417.JPEG)
+
+## Version 1 3D printed case
+![ESP32 Weather Station Prototype](images/fase5_3Dmodel/cyberWatch.jpg)
+
 
 ## Overview
 
@@ -15,7 +17,8 @@ The system displays:
 
 Navigation is done using hardware buttons and a custom menu interface.
 
-The project is currently "finish" my skills of carpinter are not the best but hopefully I could make it someday in a 3D printer.
+The first version of the case has been completed and successfully 3D printed. Next step:
+Integrate an LED strip on the top of the case to enhance the visual design and add ambient lighting.
 
 ---
 
@@ -52,6 +55,10 @@ The project is currently "finish" my skills of carpinter are not the best but ho
 ![ESP32 Weather Station Prototype](images/IMG_1270.jpeg)
 ![ESP32 Weather Station Prototype](images/IMG_1272.jpeg)
 ![ESP32 Weather Station Prototype](images/IMG_1273.jpeg)
+
+## Fase 4, wood case and some colours
+![ESP32 Weather Station Prototype](images/fase4/IMG_1416.JPEG)
+![ESP32 Weather Station Prototype](images/fase4/IMG_1417.JPEG)
 
 
 ### Fase 2 New UI
